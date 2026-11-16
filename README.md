@@ -38,5 +38,22 @@ python3 omd.py
 **Пример запуска:**
 python3 make_report.py 3 --output-file report.csv
 
+## Финальный проект
 
+Анализ данных о лауреатах Нобелевской премии из Nobel Prize API
 
+Основное решение находится в ноутбуке laureates_countries_task_solution.ipynb
+
+### Требования и зависимости
+
+Для запуска нужен Python 3.13.
+Импортируемые файлы (должны находится в одной папке с основным ноутбуком):
+	aggregations.py, 	dataset_helpers.py,  json_dict_processing.py,  laureates_configs.py, prizes_configs.py
+
+### Запуск
+
+1. Откройте `laureates_countries_task_solution.ipynb` в VS Code с расширениями Python и Jupyter.
+2. Нажмите **Select Kernel** и выберите Python из окружения `.venv`.
+3. Нажмите **Run All**, чтобы выполнить ячейки сверху вниз.
+
+Для загрузки данных из Nobel Prize API требуется подключение к интернету.
